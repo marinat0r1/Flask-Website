@@ -29,4 +29,5 @@ def signup():
             flash('The passwords do not match',  category='error')
         else:
             flash('Account created',  category='success')
+            
     return render_template("signup.html")
